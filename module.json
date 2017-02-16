@@ -1,0 +1,33 @@
+{
+    "author":"Maroš Kollár",
+    "category":"test",
+    "defaults":{
+        "description":"__m_descr__",
+        "title":"__m_title__"
+    },
+    "dependencies":["BaseModule"],
+    "homepage" : "https://github.com/maros/Zway-NetworkWatch/",
+    "icon":"icon.png",
+    "maturity":"stable",
+    "moduleName":"NetworkWatch",
+    "options":{
+        "fields":{
+            "interface": {},
+            "mac": {}
+        }
+    },
+    "repository":{
+        "homepage" : "https://github.com/maros/Zway-NetworkWatch",
+        "type":"git"
+    },
+    "schema":{
+        "properties":{
+            "interface": {},
+            "mac": {}
+        },
+        "required":true,
+        "type":"object"
+    },
+    "singleton":false,
+    "version":"1.00"
+}

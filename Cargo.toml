@@ -1,0 +1,9 @@
+[package]
+name = "network_watch"
+version = "0.1.0"
+authors = ["Maroš Kollár <maros@k-1.com>"]
+
+[dependencies]
+regex = "0.1"
+hyper = "0.9"
+time = "0.1"

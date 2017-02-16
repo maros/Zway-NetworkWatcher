@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# 1 check for lockfile
+# 2 kill process
+# 3 start process in background
